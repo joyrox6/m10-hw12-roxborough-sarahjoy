@@ -1,8 +1,15 @@
 // Create a class named car
+class Car {
+    constructor(type) {
 
+    }
+}
 
 // Use class to create objects that have 3 properties
-
+const myCar = new Object();
+myCar.make = 'Honda';
+myCar.model = 'Mustang';
+myCar.year = '1969';
 
 // Include 'honk' and 'beep' methods
 

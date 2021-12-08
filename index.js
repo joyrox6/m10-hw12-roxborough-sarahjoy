@@ -1,16 +1,16 @@
 // Create a class named car
-class Car {
+/*class Car {
     constructor(type) {
         this.type = type
     }
-}
+} */
 
 // Use class to create objects that have 3 properties
 class Car {
     constructor(make, model, year) {
         this.make = make
         this.model = model
-        this.year = 1998
+        this.year = year
     }
     honk() {
         console.log('BEEP BEEP!')

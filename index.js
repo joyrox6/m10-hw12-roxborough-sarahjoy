@@ -7,13 +7,15 @@ class Car {
         this.model = model
         this.year = year
     }
+    
     honk() {
         console.log('BEEP BEEP!');
     }
+
 }
 
-var performMaintenance = setTimeout(function() {
-    console.log('maintenance complete');
+    setTimeout(function() {
+    console.log('maintenance complete')
 }, 3000);
 
 

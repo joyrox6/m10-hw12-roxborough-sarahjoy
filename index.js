@@ -1,17 +1,33 @@
 // Create a class named car
 class Car {
     constructor(type) {
-
+        this.type = type
     }
 }
 
 // Use class to create objects that have 3 properties
-const myCar = new Object();
+class Car {
+    constructor(make, model, year) {
+        this.make = make
+        this.model = model
+        this.year = 1998
+    }
+    honk() {
+        console.log('BEEP BEEP!')
+    }
+}
+
+var performMaintenance = setTimeout(function() {
+    console.log('maintenance complete')
+} , 3000)
+
+
+/* const myCar = new Object();
 myCar.make = 'Honda';
 myCar.model = 'Mustang';
-myCar.year = '1969';
+myCar.year = '1969'; */
 
-// Include 'honk' and 'beep' methods
+// Include 'honk' method
 
 
 // Create a variable named mySweetRide and assign it to a car created with your class using the following arguments:

@@ -2,4 +2,4 @@
 
 I had no issues.
 
-No outside resources were used.
+w3schools.com was used to complete this assignment.
